@@ -10,8 +10,10 @@ export default function Categories() {
   return (
     <>
     <h2>Browse our categories</h2>
-    <Button variant="text" onClick={onShow}>Nike</Button> | 
-    <Button variant="text" onClick={onShow}>Jordan</Button>
+    <Button variant="text" onClick={onShow}>Nike</Button>| 
+    <Button variant="text" onClick={onShow}>Jordan</Button>|
+    <Button variant="text" onClick={onShow}>Converse</Button>|
+
     {show ? <Products/> : null}
    </>
   );

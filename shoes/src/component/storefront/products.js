@@ -5,12 +5,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import CurrentCategorie from './current-category';
+import CurrentCategory from './current-category';
 
 export default function Products() {
   return (
     <>
-    <CurrentCategorie/>
+    <CurrentCategory/>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"

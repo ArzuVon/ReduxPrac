@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CurrentCategorie() {
+export default function CurrentCategory() {
   return (
     <div style={{textAlign:"center", marginBottom: '100px', marginTop:'60px'}}>
       <div>

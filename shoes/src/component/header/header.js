@@ -9,7 +9,7 @@ import IconButton from '@mui/material/IconButton';
 export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color="transparent">
         <Toolbar>
           <IconButton
             size="large"
@@ -19,10 +19,10 @@ export default function Header() {
             sx={{ mr: 2 }}
           >
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            OMG Shoe Store
+          <Typography style={{color: '#40ADA6'}} variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            OUR STORE
           </Typography>
-          <Button color="inherit">Cart(0)</Button>
+          <Button style={{color: '#40ADA6'}}>Cart(0)</Button>
         </Toolbar>
       </AppBar>
     </Box>
